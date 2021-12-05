@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    width: 90%;
+    height: 100vh;
+    margin: 5rem auto 0;
+}
+
+form {
+    display: grid;
+}
+
+input.first-name,
+input.last-name {
+    line-height: 1.5rem;
+    margin-bottom: 0.5em;
+    outline: none;
+}
+
+input.add-user-btn {
+    cursor: pointer;
+    padding: 0.5rem 0;
+    font-weight: 700;
+    border: none;
+    background: #B8B3E9;
+}
+
+input.add-user-btn:hover {
+    background: #9890DF;
+}
+
+.message {
+    margin-bottom: 0.5rem;
+}
+
+.success,
+.error {
+    padding: 5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.success {
+    background: #0000ff;
+    color: #fff;
+}
+
+.error {
+    background: #ffff00;
+    color: #ff0000;
+}
+
+h3 {
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+li:nth-child(odd) {
+    background: #E7CEE3;
+}
+
+li:nth-child(even) {
+    background: #DDFDFE;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 1em;
+    background: #B8B3E9;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.btn:enabled{
+    cursor: pointer;
+}
+
+.btn:hover:enabled {
+    background: #9890DF;
+}
