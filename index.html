@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User API Challenge</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <p id="message" class="message"></p>
+
+        <form action="#" autocomplete="off" id="form">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name" class="first-name" autofocus>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name" class="last-name">
+
+            <input type="submit" value="Add User" class="add-user-btn">
+        </form>
+
+        <div>
+            <h3>Users List:</h3>
+
+            <ul id="users-list"></ul>
+
+            <div class="btn-wrapper">
+                <button id="prev-page-btn" class="btn prev-page-btn">Previous Page</button>
+                <button id="next-page-btn" class="btn next-page-btn">Next Page</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./exercise03.js"></script>
+</body>
+</html>
